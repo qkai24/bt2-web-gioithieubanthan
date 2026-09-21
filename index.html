@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giới thiệu bản thân - Huỳnh Quốc Khái</title>
+  <!-- Nhúng file CSS bên ngoài (External CSS) -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <!-- Menu điều hướng -->
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu bản thân</a> |
+    <a href="#lien-he">Gửi thông tin và giao lưu cùng tôi</a>
+  </nav>
+
+  <!-- Phần 1: Giới thiệu bản thân -->
+  <div id="gioi-thieu">
+    <h1 style="color: #CAEDFF;">Giới thiệu bản thân</h1>
+
+    <img src="https://nguoiduatin.mediacdn.vn/zoom/600_315/media/ngac-kim-giang/2020/11/23/do-mixi-dat-top1-bang-xep-hang-streamer-duoc-yeu-thich-nhat-the-gioi6.png" 
+         alt="Ảnh đại diện của Huỳnh Quốc Khái" width="100" height="100" 
+         style="display: block; margin: 0 auto;">
+
+    <h2 style="color: #D8B4F8;">Thông tin cơ bản</h2>
+    <ul>
+      <li>Tên: Huỳnh Quốc Khái</li>
+      <li>Năm sinh: 2006</li>
+      <li>Chuyên ngành: Hệ thống thông tin</li>
+    </ul>
+
+    <h2 style="color: #D8B4F8;">Sở thích</h2>
+    <h3 style="color: #FFC7EA;">Món ăn</h3>
+    <ol>
+      <li>Phở bò</li>
+      <li>Bún chả</li>
+      <li>Chè đậu xanh</li>
+    </ol>
+
+    <h3 style="color: #FFC7EA;">Giải trí</h3>
+    <h4>Trò chơi</h4>
+    <ul>
+      <li>Cầu lông</li>
+      <li>Đá bóng</li>
+      <li>Cờ vua</li>
+    </ul>
+
+    <h4>Bài hát yêu thích</h4>
+    <ul>
+      <li>Ngày đầu tiên_Đen Vâu</li>
+      <li>Có chàng trai viết lên cây_Phan Mạnh Quỳnh</li>
+      <li>Hoa nở không màu_Hoài Lâm</li>
+    </ul>
+
+    <h2 style="color: #D8B4F8;">Mục tiêu của bản thân</h2>
+    <!-- Bảng mục tiêu -->
+    <table>
+      <tr>
+        <th>Mục tiêu</th>
+        <th>Thời hạn</th>
+        <th>Hoàn thành</th>
+      </tr>
+      <tr>
+        <td>Trung bình điểm môn web đạt 8.0</td>
+        <td>12/12/2024</td>
+        <td><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+        <td>30/06/2025</td>
+        <td><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Chọn được công ty với vị trí backend developer</td>
+        <td>01/01/2026</td>
+        <td><input type="checkbox"></td>
+      </tr>
+    </table>
+  </div>
+
+  <hr>
+
+  <!-- Phần 2: Gửi thông tin và giao lưu -->
+  <div id="lien-he">
+    <h1 style="color: #CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+    
+    <!-- Form liên hệ -->
+    <form action="#" method="post">
+      <label for="hoten">Họ và tên:</label>
+      <input type="text" id="hoten" name="hoten"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="tinnhan" style="vertical-align: top;">Tin nhắn:</label>
+      <textarea id="tinnhan" name="tinnhan" rows="4" cols="50"></textarea><br><br>
+
+      <label>Giới tính:</label>
+      <input type="radio" id="nam" name="gioitinh" value="nam">
+      <label for="nam">Nam</label>
+      <input type="radio" id="nu" name="gioitinh" value="nu">
+      <label for="nu">Nữ</label><br><br>
+
+      <label>Sở thích:</label>
+      <input type="checkbox" id="nghenhac" name="sothich" value="nghenhac">
+      <label for="nghenhac">Nghe nhạc</label>
+      <input type="checkbox" id="boiloi" name="sothich" value="boiloi">
+      <label for="boiloi">Bơi lội</label>
+      <input type="checkbox" id="bien" name="sothich" value="bien">
+      <label for="bien">Biển</label><br><br>
+
+      <label for="nganh">Ngành:</label>
+      <select id="nganh" name="nganh">
+        <option value="Khoa học Máy tính">Khoa học Máy tính</option>
+        <option value="Hệ thống thông tin">Hệ thống thông tin</option>
+        <option value="Kỹ thuật phần mềm">Kỹ thuật phần mềm</option>
+      </select><br><br>
+
+      <button type="submit">Gửi</button>
+    </form>
+  </div>
+
+  <!-- Chân trang -->
+  <footer>
+    <p>@2024 24520722 HuynhQuocKhai</p>
+  </footer>
+
+</body>
+</html>
